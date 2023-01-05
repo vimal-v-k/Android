@@ -1,0 +1,7 @@
+Pattern USERNAME_PATTERN=Pattern.compile("^[A-Za-z]\\w{5,30}$");
+
+Pattern PASSWORD_PATTERN =Pattern.compile("^" +"(?=.*[@#$%^&+=])" + "(?=\\S+$)" + ".{4,}" + "$");
+
+Pattern AGE_PATTERN= Pattern.compile("^" +"(?=\\S+$)" + "[0-9]{1,2}" + "$");
+
+Pattern PHONE_PATTERN=Pattern.compile("^(0|91)?[7-9][0-9]{9}$");
